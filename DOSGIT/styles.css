@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    background-color: #000; 
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background {
+    position: relative;
+    width: 100vw; /* Largeur totale de l'écran */
+    height: 100vh; /* Hauteur totale de l'écran */
+    background-image: url(comp.jpg); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Ajuste pour couvrir tout l'écran */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+}
+
+.header {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+.btn-connect {
+    text-decoration: none;
+    color: white;
+    background-color: #1a73e8; /* Bleu élégant */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-connect:hover {
+    background-color: #145db2; /* Plus foncé au survol */
+}
+
+/* Zone principale */
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 1.5rem;
+}
+
+/* Zone du lien en bas à gauche */
+.footer {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.btn-contact {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: text-decoration 0.3s;
+}
+
+.btn-contact:hover {
+    text-decoration: underline;
+}
